@@ -21,13 +21,13 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.lock"
-        // Explicitly set minSdkVersion to 23 to resolve the Firebase Auth dependency issue
-        minSdk = 23
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
-    }
+    applicationId = "com.example.lock"
+    minSdkVersion 23
+    targetSdk = flutter.targetSdkVersion
+    versionCode = flutter.versionCode
+    versionName = flutter.versionName
+}
+
 
     buildTypes {
         release {

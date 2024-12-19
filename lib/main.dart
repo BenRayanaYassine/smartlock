@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:lock/FirstScreen.dart';
 import 'package:lock/login.dart'; // Import the LoginScreen
+import 'package:lock/test.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,8 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/login', // Start the app at the LoginScreen
       routes: {
-        '/login': (context) => LoginScreen(), // Define the login route
-        '/home': (context) => FirstScreen(), // Define the home route
+        '/login': (context) => LoginScreen(),
       },
     );
   }

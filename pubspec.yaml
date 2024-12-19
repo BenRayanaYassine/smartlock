@@ -14,9 +14,11 @@ dependencies:
   cupertino_icons: ^1.0.8  # Icons for iOS-style UI elements
   font_awesome_flutter: ^10.5.0  # Font Awesome icons
   curved_navigation_bar: ^1.0.6  # Curved navigation bar
-  firebase_core: ^3.8.1  # Firebase Core
-  firebase_auth: ^5.3.4  # Firebase Authentication
-  flutter_nfc_kit: ^3.0.0  # Add this line
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  firebase_database: ^11.0.3
+  cloud_firestore: ^5.1.0
+  firebase_messaging: ^15.0.3
 
 dev_dependencies:
   flutter_test:
@@ -31,5 +33,5 @@ flutter:
     - assets/google_icon.png
     - assets/linkedin_icon.png
     - assets/Image2.png
-    - assets/Image 3.jpg  # Removed space from the file name
+    - assets/Image 3.jpg  # Corrected asset name
     - assets/dash.jpg
